@@ -89,6 +89,14 @@ microk8s status --wait-ready
 
 ![alt text](https://github.com/MaratKN/kuber-homeworks-01/blob/main/1.png)
 
+curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl;
+
+chmod +x ./kubectl;
+
+sudo mv ./kubectl /usr/local/bin/kubectl;
+
+echo "source <(kubectl completion bash)" >> ~/.bashrc
+
 microk8s config
 
 ![alt text](https://github.com/MaratKN/kuber-homeworks-01/blob/main/2.png)
