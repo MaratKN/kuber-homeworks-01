@@ -107,7 +107,7 @@ nano config
 
 microk8s enable dashboard
 
-microk8s enable dashboard-proxy
+microk8s dashboard-proxy
 
 ![alt text](https://github.com/MaratKN/kuber-homeworks-01/blob/main/3.png)
 
